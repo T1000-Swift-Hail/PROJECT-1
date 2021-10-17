@@ -8,6 +8,7 @@
 - Use arrays. 
 - Use dictionaries .
 - Use Sets.
+- Use loops.
 - Use functions that return an output . 
 - Use Generics .
 - Use Closures.
