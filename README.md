@@ -4,7 +4,8 @@
 ## Based on what you’ve learned until now , create a project of your choosing (impress us with your imagination) . This project must at least satisfy the following requirements :
 
 - Use Optionals.
-- Use arrays.
+- Use conditionals.
+- Use arrays. 
 - Use dictionaries .
 - Use Sets.
 - Use functions that return an output . 
