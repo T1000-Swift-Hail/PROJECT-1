@@ -17,47 +17,32 @@
 - Use extensions . 
 - Use a computed property . 
 
-## Example Project :  An online Grocery Store :
+## Project :  An online library for free reading   :
 
-#### Overview : An online store that sells fruits to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
+#### Overview :  An online library for free reading . Allows users to read various books .has 2 main user The users and the manager of the store . Each one of them should be able to do the following tasks for to function properly 
 
-#### As a customer I should be able to do the following :
-- Browse  Products . 
-- View the product info (summary, specs, price, quantity , etc.)
-- Search for Products.
-- Get recommendations for my next purchase based on my purchase history.
-- Add Products to the shopping cart .
-- Remove a product from the shopping cart.
-- List the products in my shopping cart. 
-- Continue to checkout . 
-- Fill in my address for delivery.
-- Get receipt of my purchases.
-- Check delivery status . 
+#### As a user I should be able to do the following :
+- Browse  main sections. 
+- Adding the Books to the Downloads
+- cancel download the Books.
+- List the Books in my Downloads
 
-#### As a manager of the grocery store , I should be able to do the following :
-- Add new products to the online store.
-- Update a product info. 
-- Remove product from the online store.
-- Get notified of out of stock products. 
-- Browse purchase history.
-- View the total sales revenue.  
-- View the store net profits. 
-- View the most sold products on the store. 
-- Compute the tax with the product price.
-- Check delivery status.
-- Change delivery status .
+
+
+#### As a manager I should be able to do the following :
+- Get Total users account
+- Remove books from the online library.
+-View the most downloaded books in the library
 
 
 #### Usage :
 
+
 ##### user
-To use this application , create a new user using the struct **** . Call the **** to receive a list of all the products . Call ***** to receive recommendations for your next purchase . Use ***** to add a product to the shopping cart .  To list your products in shopping cart call **** . Etc. 
+To use this application , create a new user using the struct  User : Person . Call the func describeBookto receive a list of all the books . Call   . the func addBookToDownload to add book .
+
 
 ##### manager 
-To use this application to manage your online store , create a new manager using the class **** . Call the **** to receive a list of all the products . Call ***** add new products and **** to update a product with the id  . Use ***** to browse the sales history  .  Updating a delivery status is easy using the ******  .  Etc. 
+ create a new manager  using the class Manger
+ Call the function to receive a list of all the books . Call func showDownloadList to show DownloadList books and update a books with call showDownloadList  .  
 
-### Now is the time to showcase your skills. You will have 4 days to complete the project . On Thursday, you will present to us what you have achieved. 
-
-### Note : the above is an example. We want you to impress us with your imaginations and grand projects . 
-
-### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage. 
