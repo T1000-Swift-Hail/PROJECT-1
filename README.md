@@ -4,8 +4,7 @@
 ## Based on what you’ve learned until now , create a project of your choosing (impress us with your imagination) . This project must at least satisfy the following requirements :
 
 - Use Optionals.
-- Use arrays.
-- Use dictionaries .
+- Use arrays .
 - Use Sets.
 - Use functions that return an output . 
 - Use Generics .
@@ -17,33 +16,32 @@
 - Use extensions . 
 - Use a computed property . 
 
-## Example Project :  An online Grocery Store :
+## Example Project :  An online Bookstore Store :
 
-#### Overview : An online store that sells fruits to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
+#### Overview : An online store that sells books to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
 
 #### As a customer I should be able to do the following :
-- Browse  Products . 
-- View the product info (summary, specs, price, quantity , etc.)
-- Search for Products.
+- Browse  Books . 
+- View the book info (summary, specs, price, quantity , etc.)
+- Search for books.
 - Get recommendations for my next purchase based on my purchase history.
-- Add Products to the shopping cart .
-- Remove a product from the shopping cart.
-- List the products in my shopping cart. 
-- Continue to checkout . 
+- Add Books to the shopping cart .
+- Remove a book from the shopping cart.
+- List the Book in my shopping cart. 
 - Fill in my address for delivery.
 - Get receipt of my purchases.
 - Check delivery status . 
 
-#### As a manager of the grocery store , I should be able to do the following :
-- Add new products to the online store.
-- Update a product info. 
-- Remove product from the online store.
-- Get notified of out of stock products. 
+#### As a manager of the book store , I should be able to do the following :
+- Add new books to the online store.
+- Update a book info. 
+- Remove book from the online store.
+- Get notified of out of stock books. 
 - Browse purchase history.
 - View the total sales revenue.  
 - View the store net profits. 
 - View the most sold products on the store. 
-- Compute the tax with the product price.
+- Compute the tax with the book price.
 - Check delivery status.
 - Change delivery status .
 
@@ -51,10 +49,10 @@
 #### Usage :
 
 ##### user
-To use this application , create a new user using the struct **** . Call the **** to receive a list of all the products . Call ***** to receive recommendations for your next purchase . Use ***** to add a product to the shopping cart .  To list your products in shopping cart call **** . Etc. 
+To use this application , create a new user using the struct **** . Call the **** to receive a list of all the books . Call ***** to receive recommendations for your next purchase . Use ***** to add a book to the shopping cart .  To list your books in shopping cart call **** . Etc. 
 
 ##### manager 
-To use this application to manage your online store , create a new manager using the class **** . Call the **** to receive a list of all the products . Call ***** add new products and **** to update a product with the id  . Use ***** to browse the sales history  .  Updating a delivery status is easy using the ******  .  Etc. 
+To use this application to manage your online store , create a new manager using the class **** . Call the **** to receive a list of all the products . Call ***** add new books and **** to update a product with the id  . Use ***** to browse the sales history  .  Updating a delivery status is easy using the ******  .  Etc. 
 
 ### Now is the time to showcase your skills. You will have 4 days to complete the project . On Thursday, you will present to us what you have achieved. 
 
