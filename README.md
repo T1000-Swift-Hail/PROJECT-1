@@ -1,63 +1,71 @@
 # PROJECT-1
 
 
-## Based on what you’ve learned until now , create a project of your choosing (impress us with your imagination) . This project must at least satisfy the following requirements :
-
-- Use Optionals.
-- Use arrays.
-- Use dictionaries .
-- Use Sets.
-- Use functions that return an output . 
-- Use Generics .
-- Use Closures.
-- Use Structs.
-- Use Classes with an initializer .
-- Use some form of Error Handling .
-- Use Protocols . 
-- Use extensions . 
-- Use a computed property . 
-
-## Example Project :  An online Grocery Store :
-
-#### Overview : An online store that sells fruits to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
-
-#### As a customer I should be able to do the following :
-- Browse  Products . 
-- View the product info (summary, specs, price, quantity , etc.)
-- Search for Products.
-- Get recommendations for my next purchase based on my purchase history.
-- Add Products to the shopping cart .
-- Remove a product from the shopping cart.
-- List the products in my shopping cart. 
-- Continue to checkout . 
-- Fill in my address for delivery.
-- Get receipt of my purchases.
-- Check delivery status . 
-
-#### As a manager of the grocery store , I should be able to do the following :
-- Add new products to the online store.
-- Update a product info. 
-- Remove product from the online store.
-- Get notified of out of stock products. 
-- Browse purchase history.
-- View the total sales revenue.  
-- View the store net profits. 
-- View the most sold products on the store. 
-- Compute the tax with the product price.
-- Check delivery status.
-- Change delivery status .
+Readme
 
 
-#### Usage :
+Real estate app
 
-##### user
-To use this application , create a new user using the struct **** . Call the **** to receive a list of all the products . Call ***** to receive recommendations for your next purchase . Use ***** to add a product to the shopping cart .  To list your products in shopping cart call **** . Etc. 
 
-##### manager 
-To use this application to manage your online store , create a new manager using the class **** . Call the **** to receive a list of all the products . Call ***** add new products and **** to update a product with the id  . Use ***** to browse the sales history  .  Updating a delivery status is easy using the ******  .  Etc. 
+Real estate applications on real estate in Saudi Arabia
+Where the Aqar platform provides you with a search service for real
+Estate for sale , rent and buy from (Land , Farm , Villa ,house , office , apartments )
+This platform comes in the form of an electronic application on iPhone device 
 
-### Now is the time to showcase your skills. You will have 4 days to complete the project . On Thursday, you will present to us what you have achieved. 
+_______________________________________________________________
 
-### Note : the above is an example. We want you to impress us with your imaginations and grand projects . 
+## Create  protocol User . It has the following properties and methods
+  - name : String
+- phonenumber  : String
+- email : String
+- password : Int
+- func buy ()
 
-### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage. 
+
+## Create a class Bayer  that conforms to protocol User
+
+ Conform to the protocol User properties and methods
+
+- name: String
+- phonenumber :String
+- email : String
+- password : Int
+- address : Address
+- func getBayernumber
+
+## Create an enum PaymentError . 
+- case paymentLow
+
+
+
+
+Create an struct  saleman 
+
+- using do, catch . Call the the method sell(payment: 10000). If an error, print "The payment is low"
+
+Create an extension to struct Saleman . Add the following method:
+- func sell(selling : Int)
+- the method doPainting(selling : Int) accepts a pyament of 10000 or more . Using a guard , throw an error of type PaymentError.paymentLow if the payment is less than 10000 .
+- If No errors thrown , the method doPainting(payment : Int) prints "The sale is Done".
+
+Create an struct  Real-estate 
+name : String
+location : String
+price : Int
+Func sale ()
+
+- Add a new property specialization : String
+- Add a new computed property description : String that returns the following : return "real estate is \<name>, located in \<location>. You can buy for \<price> USD""
+-  Using a closure and the Array method sorted(by:), sort the following array from biggest to lowest 
+- Using dictionaries
+ - Create 5 different bayer in real estate
+- Using Error handling
+- Using  closures and print Our list of sorted houses from high to low
+ -Create an optioanl of type String : profit
+
+
+### Using Sets, do the following:
+Compare set  villa1 & villa2
+Use (union) , (intersection) , (subtracting)
+
+
