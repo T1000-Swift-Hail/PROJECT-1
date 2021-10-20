@@ -12,6 +12,7 @@
 - Use Structs.
 - Use Classes with an initializer .
 - Use some form of Error Handling .
+- Use Dectionary
 - Use Protocols . 
 - Use extensions . 
 - Use a computed property . 
