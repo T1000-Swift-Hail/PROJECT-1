@@ -17,9 +17,9 @@
 - Use extensions . 
 - Use a computed property . 
 
-## Example Project :  An online Grocery Store :
+## Example Project :  An online Watches Store :
 
-#### Overview : An online store that sells fruits to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
+#### Overview : An online store that sells watches to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
 
 #### As a customer I should be able to do the following :
 - Browse  Products . 
