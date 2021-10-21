@@ -1,63 +1,26 @@
 # PROJECT-1
 
+#An Airline Reservation  System:
 
-## Based on what you’ve learned until now , create a project of your choosing (impress us with your imagination) . This project must at least satisfy the following requirements :
+Overview : An Airline Resevation  System that allows customer to book a flight. This airline reservation  system has 2 main users. The customer and the manager of the website . Each one of them should be able to do the following tasks for the store to function properly .
 
-- Use Optionals.
-- Use arrays.
-- Use dictionaries .
-- Use Sets.
-- Use functions that return an output . 
-- Use Generics .
-- Use Closures.
-- Use Structs.
-- Use Classes with an initializer .
-- Use some form of Error Handling .
-- Use Protocols . 
-- Use extensions . 
-- Use a computed property . 
+As a customer I should be able to do the following :
+- Book flight
+- View the flight info.
+- Select seat.
+- Selet Seats Type. 
+- Payment Information .
+- Avariable Flight & Seats.
 
-## Example Project :  An online Grocery Store :
-
-#### Overview : An online store that sells fruits to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
-
-#### As a customer I should be able to do the following :
-- Browse  Products . 
-- View the product info (summary, specs, price, quantity , etc.)
-- Search for Products.
-- Get recommendations for my next purchase based on my purchase history.
-- Add Products to the shopping cart .
-- Remove a product from the shopping cart.
-- List the products in my shopping cart. 
-- Continue to checkout . 
-- Fill in my address for delivery.
-- Get receipt of my purchases.
-- Check delivery status . 
-
-#### As a manager of the grocery store , I should be able to do the following :
-- Add new products to the online store.
-- Update a product info. 
-- Remove product from the online store.
-- Get notified of out of stock products. 
-- Browse purchase history.
-- View the total sales revenue.  
-- View the store net profits. 
-- View the most sold products on the store. 
-- Compute the tax with the product price.
-- Check delivery status.
-- Change delivery status .
+As a manager of the An Airline Resevation  System , I should be able to do the following :
+- View customer Information.
+- Show Acceptable Payment & flight
 
 
-#### Usage :
+Usage :
 
-##### user
-To use this application , create a new user using the struct **** . Call the **** to receive a list of all the products . Call ***** to receive recommendations for your next purchase . Use ***** to add a product to the shopping cart .  To list your products in shopping cart call **** . Etc. 
+#user
+To use this application , create a new user using the protocol user . Call the ticketType to receive a list of all the Tickets . Call select Seats to receive a list of all the seats Type for your flight. Create extension Manager to show the acceptable payment method . Call bookFlight to show the avariable flight. Call bookSeats to show if there is any avariable seats or not. 
 
-##### manager 
-To use this application to manage your online store , create a new manager using the class **** . Call the **** to receive a list of all the products . Call ***** add new products and **** to update a product with the id  . Use ***** to browse the sales history  .  Updating a delivery status is easy using the ******  .  Etc. 
-
-### Now is the time to showcase your skills. You will have 4 days to complete the project . On Thursday, you will present to us what you have achieved. 
-
-### Note : the above is an example. We want you to impress us with your imaginations and grand projects . 
-
-### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage. 
+#manager
+To use this application to manage your Airline reservation system , create a new manager using the class manager. Call the viewPassengerInfo to receive a list of all our customer . 
