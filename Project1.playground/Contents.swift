@@ -33,7 +33,7 @@ struct Customer:User{
     
     // function to print out the coustomer product in his cart
     func buySports(){
-        print("____________________")
+        print("---------------------------")
         print("\(FirstName) has the following in his shopping cart : ")
         //        print("This is the all products in the shopping cart:....")
         print("---------------------------")
