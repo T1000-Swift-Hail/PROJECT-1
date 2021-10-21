@@ -1,65 +1,37 @@
 # PROJECT-1
 
 
-## Based on what you’ve learned until now , create a project of your choosing (impress us with your imagination) . This project must at least satisfy the following requirements :
+##  I created this project Based on what I learned until now by ussing:
+  I
+- Used Optionals.
+- Used arrays.
+- Used functions that return an output . 
+- Used Structs.
+- Used Classes with an initializer .
+- Used some form of Error Handling . 
+- Used a computed property . 
 
-- Use Optionals.
-- Use conditionals.
-- Use arrays. 
-- Use dictionaries .
-- Use Sets.
-- Use loops.
-- Use functions that return an output . 
-- Use Generics .
-- Use Closures.
-- Use Structs.
-- Use Classes with an initializer .
-- Use some form of Error Handling .
-- Use Protocols . 
-- Use extensions . 
-- Use a computed property . 
+## Project :  maneg your busness:
 
-## Example Project :  An online Grocery Store :
+#### Overview : It ia an applocaition that help you runing your busniess by ussing calculated methods and show you reports and give advices about runing your besniess also it use feed back system by taking costmer complaines and suggestions.
 
-#### Overview : An online store that sells fruits to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
+#### As a busniss man I should be able to do the following :
+- see my employee data (name and salary)
+- add more employee . 
+- adding more than busniss
+- calculat variable cost.
+- calculate constant cost
+- see all my busness incom
+- take feedback from costmers. 
+- calculatnet profit . 
+- see advices in bad situations 
+- calculate averege of netprofit
+- calculate averege of total cost . 
 
-#### As a customer I should be able to do the following :
-- Browse  Products . 
-- View the product info (summary, specs, price, quantity , etc.)
-- Search for Products.
-- Get recommendations for my next purchase based on my purchase history.
-- Add Products to the shopping cart .
-- Remove a product from the shopping cart.
-- List the products in my shopping cart. 
-- Continue to checkout . 
-- Fill in my address for delivery.
-- Get receipt of my purchases.
-- Check delivery status . 
 
-#### As a manager of the grocery store , I should be able to do the following :
-- Add new products to the online store.
-- Update a product info. 
-- Remove product from the online store.
-- Get notified of out of stock products. 
-- Browse purchase history.
-- View the total sales revenue.  
-- View the store net profits. 
-- View the most sold products on the store. 
-- Compute the tax with the product price.
-- Check delivery status.
-- Change delivery status .
 
 
 #### Usage :
 
-##### user
-To use this application , create a new user using the struct **** . Call the **** to receive a list of all the products . Call ***** to receive recommendations for your next purchase . Use ***** to add a product to the shopping cart .  To list your products in shopping cart call **** . Etc. 
-
-##### manager 
-To use this application to manage your online store , create a new manager using the class **** . Call the **** to receive a list of all the products . Call ***** add new products and **** to update a product with the id  . Use ***** to browse the sales history  .  Updating a delivery status is easy using the ******  .  Etc. 
-
-### Now is the time to showcase your skills. You will have 4 days to complete the project . On Thursday, you will present to us what you have achieved. 
-
-### Note : the above is an example. We want you to impress us with your imaginations and grand projects . 
-
-### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage. 
+##### 
+as a busniss man you can add mor employees by using Employee struct **** you can add more the one busniss by ussing class project manajment ****calculate yor cost for evry busniss individualy bu ussing function calculateCost ***** calculate your your revenu by ussingfunction calculatRevenu ***** you can calculate your net profit for all busnisses by ussing function sum **** .you can calculate the avereg by ussing function divide**** you can take costmers complain and sugesstions.
