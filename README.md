@@ -3,61 +3,82 @@
 
 ## Based on what you’ve learned until now , create a project of your choosing (impress us with your imagination) . This project must at least satisfy the following requirements :
 
-- Use Optionals.
-- Use arrays.
-- Use dictionaries .
-- Use Sets.
-- Use functions that return an output . 
-- Use Generics .
-- Use Closures.
-- Use Structs.
-- Use Classes with an initializer .
-- Use some form of Error Handling .
-- Use Protocols . 
-- Use extensions . 
-- Use a computed property . 
+- Use Optionals.Done
+- Use arrays.Done
+- Use dictionaries .Done
+- Use Sets.Done
+- Use functions that return an output .Done 
+- Use Generics .Done
+- Use Closures.Done
+- Use Structs.Done
+- Use Classes with an initializer .Done
+- Use some form of Error Handling .Done
+- Use Protocols .Done 
+- Use extensions .Done 
+- Use a computed property .Done 
 
-## Example Project :  An online Watches Store :
+##  Project :  An online Watches Store :
 
-#### Overview : An online store that sells watches to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
-
+#### Overview : An online watch store that sells Watch to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
 #### As a customer I should be able to do the following :
-- Browse  Products . 
-- View the product info (summary, specs, price, quantity , etc.)
-- Search for Products.
+- Browse watches . 
+- View the watch info (summary, specs, price, quantity , etc.)
+- Search for watches.
 - Get recommendations for my next purchase based on my purchase history.
-- Add Products to the shopping cart .
-- Remove a product from the shopping cart.
-- List the products in my shopping cart. 
-- Continue to checkout . 
+- Add watches to the shopping cart .
+- Remove a watch from the shopping cart.
+- List the watch in my shopping cart. 
 - Fill in my address for delivery.
 - Get receipt of my purchases.
 - Check delivery status . 
-
-#### As a manager of the grocery store , I should be able to do the following :
-- Add new products to the online store.
-- Update a product info. 
-- Remove product from the online store.
-- Get notified of out of stock products. 
+#### As a manager of the watch store , I should be able to do the following :
+- Add new watches to the online store.
+- Update a watch info. 
+- Remove watch from the online store.
+- Get notified of out of stock watches. 
 - Browse purchase history.
 - View the total sales revenue.  
 - View the store net profits. 
 - View the most sold products on the store. 
-- Compute the tax with the product price.
+- Compute the tax with the book price.
 - Check delivery status.
 - Change delivery status .
-
-
 #### Usage :
+##### Customer user
+first:
+we use protocol
+ [User]
+ 
+ of [Customer:User]
+give us [Username,Passowrd]
 
-##### user
-To use this application , create a new user using the struct **** . Call the **** to receive a list of all the products . Call ***** to receive recommendations for your next purchase . Use ***** to add a product to the shopping cart .  To list your products in shopping cart call **** . Etc. 
+To use this application ,we create a new user using the struct [Customer] of user . and we Call the func of [baywatch] to receive a book what he was pay and we for loop : for [Watch] in [shoppingCart]. and we do structure of [Customer] and give us func of [describeWatch] . and we use enum [TypeWatch] store under that case department of [  SamsungWatch, RolexWatches,AppleWaches,CasioWatches] then we use [struct] watch to give us details of watch [namewatch, description, price, quantity,category, sectionwatch] the section of shoppp we using Dectionary[sectionWatch] . switch [category] and give us case and this case print kinds of books in department. static func of customers[PrintNationalID] then we using func [ShoppingCost]give volume and quantity. Etc. 
+##### manager user
+first:
+we use protocol [User] of [ManagerUser]
+give us [UserName,Password]. 
+Manager can remove any prodoct he want by
+func [removeProduct] and [index] and [Usen Dictionry].
 
-##### manager 
-To use this application to manage your online store , create a new manager using the class **** . Call the **** to receive a list of all the products . Call ***** add new products and **** to update a product with the id  . Use ***** to browse the sales history  .  Updating a delivery status is easy using the ******  .  Etc. 
 
-### Now is the time to showcase your skills. You will have 4 days to complete the project . On Thursday, you will present to us what you have achieved. 
 
-### Note : the above is an example. We want you to impress us with your imaginations and grand projects . 
 
-### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
