@@ -1,7 +1,7 @@
 # PROJECT-1
 
 
-## Based on what you’ve learned until now , create a project of your choosing (impress us with your imagination) . This project must at least satisfy the following requirements :
+## Based on what you’ve learned until now , create a project of your choosing (impress us with your imagination) . This __project must at least satisfy the following requirements :
 
 - Use Optionals.
 - Use arrays .
@@ -17,9 +17,9 @@
 - Use extensions . 
 - Use a computed property . 
 
-## Example Project :  An online Bookstore Store :
+## Example Project :  An online [Bookstore Store] :
 
-#### Overview : An online store that sells books to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
+#### Overview : An online book store that sells books to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
 
 #### As a customer I should be able to do the following :
 - Browse  Books . 
@@ -49,14 +49,16 @@
 
 #### Usage :
 
-##### user
-To use this application , create a new user using the struct **** . Call the **** to receive a list of all the books . Call ***** to receive recommendations for your next purchase . Use ***** to add a book to the shopping cart .  To list your books in shopping cart call **** . Etc. 
+##### Customer user
+first:
+we use protocol [User] of [Customer:User]
+give us [Username,Passowrd]
+To use this application ,we create a new user using the struct [Customer] of user . and we Call the func of [PayBook] to receive a book what he was pay and we for loop : for [book] in [shoppingCart]. and we do structure of [Customer] and give us func of [describeCustomer] . and we use enum [TypeBookStore] store under that case department of [DramaBook,RomanticBook,HrorrBook] then we use [struct] Book to give us details of book [namebook, description, price, quantity,category, sectionlibrary] the section of library we using Dectionary[sectionLibliry] . switch [category] and give us case and this case print kinds of books in department.  static func of customers[PrintNationalID] then we using func [ShoppingCost]give volume and quantity. Etc. 
 
-##### manager 
-To use this application to manage your online store , create a new manager using the class **** . Call the **** to receive a list of all the products . Call ***** add new books and **** to update a product with the id  . Use ***** to browse the sales history  .  Updating a delivery status is easy using the ******  .  Etc. 
-
-### Now is the time to showcase your skills. You will have 4 days to complete the project . On Thursday, you will present to us what you have achieved. 
-
-### Note : the above is an example. We want you to impress us with your imaginations and grand projects . 
-
-### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage. 
+##### manager user
+first:
+we use protocol [User] of [ManagerUser]
+give us [UserName,Password]. 
+Manager can remove any prodoct he want by
+func [removeProduct] and [index].
+Thank you

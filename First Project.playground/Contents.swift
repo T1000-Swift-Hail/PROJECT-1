@@ -38,7 +38,7 @@ struct Customer:User {
     
     
     func payBook() {
-        print("Dear Customer Welcome In Booktore :) ......")
+        print("Dear Customer Welcome In Bookstore :) ......")
         print("Now we baying Book ....")
         for book in shoppingCart {
             print("The Name of book is \(book.name), The Description is \(book.description), The Price of Book \(book.price) The Quantity of Book is \(book.quantity), The Category is \(book.category)")
@@ -181,3 +181,7 @@ let NationalID2 = Book.PrintNationalID(a: "Talal", b: 120222202)
 print(NationalID2)
 
 print("Thanks For Shopping ...")
+
+
+
+
