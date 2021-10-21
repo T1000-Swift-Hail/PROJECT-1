@@ -2,7 +2,7 @@
 
 #An Airline Reservation  System:
 
-Overview : An Airline Resevation  System that allows customer to book a flight. This airline reservation  system has 2 main users. The customer and the manager of the website . Each one of them should be able to do the following tasks for the store to function properly .
+Overview : An Airline Resevation System that allows customer to book a flight. This airline reservation system has 2 main users. The customer and the manager of the website . Each one of them should be able to do the following tasks for the website to function properly .
 
 As a customer I should be able to do the following :
 - Book flight

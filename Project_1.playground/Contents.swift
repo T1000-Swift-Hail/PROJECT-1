@@ -32,15 +32,6 @@ enum PaymentMethod{
     case masterCard
 }
 
-
-enum foreCast{
-    
-    case Hot
-    case Cold
-    case Fair
-   
-}
-
 // enum BookingError contains the following Case and return Error
 enum BookingError: Error{
     case paymentError
@@ -150,14 +141,16 @@ struct Customer{
     
 }
 
-//######################
-// This section contains objects for DifferentTickets casea to print the tickets Type, and objects for Ticket_Type, Customer & manger.
-// called All the functions and Handling error to get the output.
+/*
+ 
+ This section contains objects for DifferentTickets casea to print the tickets Type, and objects for Ticket_Type, Customer & manger.
+ called All the functions and Handling error to get the output.
 
-//guard condation to check if paymentType is equal to visa if not will throw paymentError.
+guard condation to check if paymentType is equal to visa if not will throw paymentError.
 
-//guard condation to check if avariableFlight more than 0, will display "select your flight" if not will throw noFlightAvariable error
-
+guard condation to check if avariableFlight more than 0, will display "select your flight" if not will throw noFlightAvariable error
+ 
+*/
 print("\nWelcom to our AirLine Reservation System...... ")
 print("\n")
 
@@ -187,7 +180,7 @@ print(paymentType.paymentInformation(paymentMethod: "Visa", paymentMethod1: "Mad
 let flight_number = Customer(leftSeats: 9, seats: 150, paymentType: .visa)
 
 do{
-    let result = try flight_number.bookFlight1(avariableFlight: 5)
+    let result = try flight_number.bookFlight1(avariableFlight: 6)
     print(result)
 }
 catch BookingError.noFlightAvariable {
