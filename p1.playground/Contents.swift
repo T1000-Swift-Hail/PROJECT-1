@@ -45,7 +45,7 @@ struct CustmerComplainAndSuggestions {
         for suggestion in suggestions {
        
             
-            if numberComplain >= number {print(complaints)
+            if numberComplain >= number {print("costmer says \(complaints)")
                 
             } else{
             print(suggestion,complaints)
@@ -200,12 +200,13 @@ print("This is your averge total Net profit = \(managerAvergeProfit)$")
 print("-----------------------------------------------------")
 print(income)
 print("-----------------------------------------------------")
-print("the best way to improve your busniss is to lesson to costmers.")
+print("the best way to improve your busniss is to lesson to costmers here is some of costemr complain.")
 
 var importantcostomer = CustmerComplainAndSuggestions(complaints: ["Your shop need to be clean"], suggestions: ["open Delivery Service"])
 var commonCpstmer = CustmerComplainAndSuggestions(complaints: ["the employees need traning"], suggestions: ["discont more often"])
 importantcostomer.costmerComplainAndSuggestions(numberComplain: 2)
 commonCpstmer.costmerComplainAndSuggestions(numberComplain: 2)
+
 
 
 
