@@ -45,7 +45,7 @@ struct Store {
  }
  
     
-    // Here I offer some Using tips by Using function.
+    // Here I write some Using tips by Using function.
     func UsingTips ( ) {
         print("Here some Tips for Using plastic :")
         print("1.Avoid single use plastics.")
