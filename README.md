@@ -24,7 +24,10 @@ ________________________________________________________________________________
 #to send a helicopter if it is outside the city or an ambulance if it is inside the city, 
   #after determining the location,
 #the application requests the person’s data such as the 
-  # name,
+ 
+ 
+ 
+# Usage
 #phone number,
 #location 
 #of the case and also determines the type of injury, 
