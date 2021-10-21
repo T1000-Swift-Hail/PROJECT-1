@@ -1,65 +1,38 @@
-# PROJECT-1
+# PROJECT-1 [Home Design App]
 
+• Overview : An online application that provieds design , construction, decoration and online consulting to customers. 
 
-## Based on what you’ve learned until now , create a project of your choosing (impress us with your imagination) . This project must at least satisfy the following requirements :
+➤ As a customer I can on online stor Home Design do the following :
 
-- Use Optionals.
-- Use conditionals.
-- Use arrays. 
-- Use dictionaries .
-- Use Sets.
-- Use loops.
-- Use functions that return an output . 
-- Use Generics .
-- Use Closures.
-- Use Structs.
-- Use Classes with an initializer .
-- Use some form of Error Handling .
-- Use Protocols . 
-- Use extensions . 
-- Use a computed property . 
+- Check the Validity of My Account .
+- Compare Prices For Designs .
+- Choose Between Experts .
+- Inquire About The Owner Of The Lowest Price Servic.
+- Know The Minimum Asking price .
+- Allow To add a comment.
+- Confirm the asking price.
+- Browse the available models and see their information.
+- Fill in my information.
+- List the types of paints in my App.
+ 
+ 
+➤ in the App there is anther serves can doit :
 
-## Example Project :  An online Grocery Store :
+- check The views in pages.
+- add assess for expert. 
+- Confirm the asking price
+- inquire about Name of Expert.
+- 
 
-#### Overview : An online store that sells fruits to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
+• Usage :
 
-#### As a customer I should be able to do the following :
-- Browse  Products . 
-- View the product info (summary, specs, price, quantity , etc.)
-- Search for Products.
-- Get recommendations for my next purchase based on my purchase history.
-- Add Products to the shopping cart .
-- Remove a product from the shopping cart.
-- List the products in my shopping cart. 
-- Continue to checkout . 
-- Fill in my address for delivery.
-- Get receipt of my purchases.
-- Check delivery status . 
+▻ In This application ,I create a new user using the struct (manager , InteriorDesigner , user) . and all this struct Call Information About them .
+▻ In struct InteriorDesigner can Call interiorDesigner to creatDesign OR designAdvice ..
+▻ In struct User , Call FillInInformation To check if he Blocked or not . and Call PriceOrderQuantity to know if Order Acceptance or under The required amount. 
+▻ call logIn , Verify From All User ,The Right To Regisster . 
+▻ Call Addcomment to write your comment . Call isPopular To check The Views For Page by Week.
+▻ call comparison Model Price ,and Call Add New Assess For Expert .CallconsultationPrice to consultation and inquiry Price after tax .
+▻ I have call for makeDesign to View services ..
+last thing call describePerson
 
-#### As a manager of the grocery store , I should be able to do the following :
-- Add new products to the online store.
-- Update a product info. 
-- Remove product from the online store.
-- Get notified of out of stock products. 
-- Browse purchase history.
-- View the total sales revenue.  
-- View the store net profits. 
-- View the most sold products on the store. 
-- Compute the tax with the product price.
-- Check delivery status.
-- Change delivery status .
-
-
-#### Usage :
-
-##### user
-To use this application , create a new user using the struct **** . Call the **** to receive a list of all the products . Call ***** to receive recommendations for your next purchase . Use ***** to add a product to the shopping cart .  To list your products in shopping cart call **** . Etc. 
-
-##### manager 
-To use this application to manage your online store , create a new manager using the class **** . Call the **** to receive a list of all the products . Call ***** add new products and **** to update a product with the id  . Use ***** to browse the sales history  .  Updating a delivery status is easy using the ******  .  Etc. 
-
-### Now is the time to showcase your skills. You will have 4 days to complete the project . On Thursday, you will present to us what you have achieved. 
-
-### Note : the above is an example. We want you to impress us with your imaginations and grand projects . 
-
-### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage. 
+                                                                                    Thank you 
