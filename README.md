@@ -1,63 +1,63 @@
-# PROJECT-1
+# PROJECT-1st
+ my Project: Travel Friend app
+
+Overview : An Online delivery app
+          It allows users to register their cars anytime they move from one city to another, so that other users can share the ride with them.
+The application has 3 main users: the customer, the driver and the manager. They must all be able to perform the following tasks for the app to function properly.
+
+As a customer, I must be able to do the following:
+- Choose the city
+- Choose the type of car
+- Choose the driver
+- Display driver information (name, mobile number, arrival time, price...)
+
+As an application manager, I should be able to do the following:
+- Add a new driver
+-Determine the price so that it is not less than a certain price
+- View total earnings
+- Number of drivers in cities
+
+As a driver I should be able to:
+- Accept delivery request
+-Delivery refused
+-View customer information (name, mobile number…)
 
 
-## Based on what you’ve learned until now , create a project of your choosing (impress us with your imagination) . This project must at least satisfy the following requirements :
+Usage :
+user:
 
-- Use Optionals.
-- Use arrays.
-- Use dictionaries .
-- Use Sets.
-- Use functions that return an output . 
-- Use Generics .
-- Use Closures.
-- Use Structs.
-- Use Classes with an initializer .
-- Use some form of Error Handling .
-- Use Protocols . 
-- Use extensions . 
-- Use a computed property . 
+##To use this application , create a new user using the protocol user
+##Create an enum TypeCity String
+case riyadh
+case hail
+case jeddah
+case dammam
+case abha
+--
+##Create an enum ErrorOrder
+##case orderSameCity
 
-## Example Project :  An online Grocery Store :
+--
+##Create a struct Customer to User
+- method requestDriver(fromCity:TypeCity,toCity:TypeCity) throws -> String
 
-#### Overview : An online store that sells fruits to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
+- method requestDriver2(fromCity:TypeCity,toCity:TypeCity) throws -> String
 
-#### As a customer I should be able to do the following :
-- Browse  Products . 
-- View the product info (summary, specs, price, quantity , etc.)
-- Search for Products.
-- Get recommendations for my next purchase based on my purchase history.
-- Add Products to the shopping cart .
-- Remove a product from the shopping cart.
-- List the products in my shopping cart. 
-- Continue to checkout . 
-- Fill in my address for delivery.
-- Get receipt of my purchases.
-- Check delivery status . 
+- method requestDriver3(fromCity:TypeCity,toCity:TypeCity) throws -> String
 
-#### As a manager of the grocery store , I should be able to do the following :
-- Add new products to the online store.
-- Update a product info. 
-- Remove product from the online store.
-- Get notified of out of stock products. 
-- Browse purchase history.
-- View the total sales revenue.  
-- View the store net profits. 
-- View the most sold products on the store. 
-- Compute the tax with the product price.
-- Check delivery status.
-- Change delivery status .
+## Create a struct Driver to User
+- method driveCustomer(customer : Customer, payment: Int)
 
+- method driveCustomer2(driverTow: Driver ,customer2:Customer)
 
-#### Usage :
+- method driveCustomer3(driver : Driver ,customer3:Customer)
+- using do, catch call the method driveCustomer
+ If an error, print("Sorry Your order is wrong you order the same city”)
 
-##### user
-To use this application , create a new user using the struct **** . Call the **** to receive a list of all the products . Call ***** to receive recommendations for your next purchase . Use ***** to add a product to the shopping cart .  To list your products in shopping cart call **** . Etc. 
+- call driver.driveCustomer
+## create a class manager to User
+- use initi for the class
 
-##### manager 
-To use this application to manage your online store , create a new manager using the class **** . Call the **** to receive a list of all the products . Call ***** add new products and **** to update a product with the id  . Use ***** to browse the sales history  .  Updating a delivery status is easy using the ******  .  Etc. 
+## create extension  to Manager
+-  using do, catch call the method ourDriver
 
-### Now is the time to showcase your skills. You will have 4 days to complete the project . On Thursday, you will present to us what you have achieved. 
-
-### Note : the above is an example. We want you to impress us with your imaginations and grand projects . 
-
-### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage. 
